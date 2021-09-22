@@ -58,7 +58,7 @@ Slack
 
 ## Contribution Guidlines
 
-Direct link to site:https://jessica9410.github.io/Jessica-Portfolio/
+Direct link to site:https://jessica9410.github.io/Work_portfolio/
 
 ### License
 
