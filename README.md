@@ -26,19 +26,19 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Usage
 
-![Screenshot (74)](![Screenshot (77)](https://user-images.githubusercontent.com/87554644/134069430-6ef7506e-0ea8-4ec9-b22b-51cdf8c787b9.png)
+![Screenshot (77)](https://user-images.githubusercontent.com/87554644/134069430-6ef7506e-0ea8-4ec9-b22b-51cdf8c787b9.png)
 
 ## Installation
 
-- Cloned this repository.
-- Opened both repositories in terminal.
-- Commit and pushed to terminal or Gitbash into Github
+✅ Cloned this repository.
+✅ Opened both repositories in terminal.
+✅Commit and pushed to terminal or Gitbash into Github
 
 ## Credits
 
-https://Slack.com
-https://bootcampspot.com/sessions/1823070/videos/140727
-https://youtube.com
+✅ https://Slack.com
+✅https://bootcampspot.com/sessions/1823070/videos/140727
+✅https://youtube.com
 
 ## Support and contact details
 
