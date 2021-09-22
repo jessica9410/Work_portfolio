@@ -1,140 +1,171 @@
-  /* the backgound color is applied */
-  
-  * {
-      background-color: rgb(185, 201, 211);
-  }
-  /* this style applies to all childrens color */
-  
-   :root {
-      --first: rgb(45, 53, 77);
-      --second: rgb(115, 166, 170);
-      --third: rgb(108, 173, 233);
-  }
-  /* This header was applied to the blue header with flex-wrap and justify-content */
-  
-  header {
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      background-color: var(--first);
-      align-items: center;
-      padding: 10px;
-      flex-direction: row;
-  }
-  /* this style apples to the name in h1 section  */
-  
-  header h1 {
-      align-items: center;
-      color: var(--first);
-      background-color: var(--second);
-      padding: 15px;
-      font-size: 4vm;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  /* this style applies to the about me, work, and contact me section of the nav */
-  
-  nav {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: center;
-  }
-  /* this style applies to the nav a -- by using transition and root colors  */
-  
-  nav a {
-      text-decoration: underline;
-      padding: 10px;
-      margin-right: 10px;
-      color: var(--first);
-      background-image: var(--second)100%;
-      background-repeat: no-repeat;
-      background-size: 0% 0.1em;
-      background-position: bottom;
-      transition: all 0.25s ease-in;
-      font-size: 1.4rem;
-      align-items: center;
-  }
-  /* this style applies to the background size and the color of the nav */
-  
-  nav a:hover {
-      background-size: 100% 100%;
-      color: var(--second);
-  }
-  /* this style applies to the contact information section  */
-  
-  #ContactList li {
-      display: inline;
-      text-decoration: underline;
-      padding: 5px;
-      margin-left: 120px;
-      align-items: center;
-  }
-  /* this style applies to the about me section color and size */
-  
-  #about {
-      border-right: 3px solid black;
-      width: 120px;
-  }
-  /* this style applies to the text section of the about me  */
-  
-  main p {
-      margin: 100px;
-      display: grid;
-      grid-template-rows: repeat;
-      gap: 20px;
-      max-width: 1000px;
-  }
-  /* this style applies color, width and border size to the Work text */
-  
-  #Work {
-      border-right: 3px solid black;
-      width: 120px;
-  }
-  /* this style applies to the contact me text */
-  
-  #Contact h2 {
-      border-right: 3px solid black;
-      width: 120px;
-  }
-  /* this style applies to the profile image */
-  
-  .me img {
-      border-radius: 50%;
-      max-height: 150px;
-      max-width: 200px;
-      width: 120px;
-      height: 120px;
-      margin: 20px;
-      box-shadow: 10px 2px #f8f5f6;
-      box-shadow: 10px 2px 15px;
-  }
-  /* this style applies to the content of the work section */
-  
-  .first {
-      border-right: 6px 10px solid rgb(98, 98, 100);
-      border-left: 6px 10px solid rgb(135, 135, 138);
-      margin-left: 200px;
-      width: 700px;
-      box-shadow: 100px 510px #f8f5f6;
-      box-shadow: 5px -10px 50px;
-  }
-  /* this style applies to the content inside the work section  */
-  
-  .first .second {
-      border-left: 6px solid rgb(135, 135, 138);
-      position: relative;
-      width: 30%;
-      height: 50%;
-      margin-left: 80px;
-      background: rgb(115, 166, 170);
-      transform: translate(-36%, -200%);
-      border-right: 6px solid rgb(135, 135, 138);
-  }
-  /* The width is 100%, when the viewport is 800px or smaller */
-  
-  @media screen and (max-width: 600px) {
-      a img {
-          width: 40%;
-          height: 100%;
-      }
-  }
+/* the backgound color is applied */
+
+* {
+    background-color: rgb(185, 201, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+/* this style applies to all childrens color */
+
+:root {
+    --first: rgb(45, 53, 77);
+    --second: rgb(115, 166, 170);
+    --third: rgb(108, 173, 233);
+}
+
+
+/* This header was applied to the blue header with flex-wrap and justify-content */
+
+header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--first);
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+}
+
+
+/* this style apples to the name in h1 section  */
+
+header h1 {
+    align-items: center;
+    color: var(--first);
+    background-color: var(--second);
+    padding: 15px;
+    font-size: 4vm;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* this style applies to the about me, work, and contact me section of the nav */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/* this style applies to the nav a -- by using transition and root colors  */
+
+nav a {
+    text-decoration: underline;
+    padding: 10px;
+    margin-right: 10px;
+    color: var(--first);
+    background-image: var(--second) 100%;
+    background-size: 0% 0.1em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
+    align-items: center;
+}
+
+
+/* this style applies to the background size and the color of the nav */
+
+nav a:hover {
+    background-size: 100% 100%;
+    color: var(--second);
+}
+
+
+/* this style applies to the contact information section  */
+
+#ContactList li {
+    display: inline;
+    text-decoration: underline;
+    padding: 5px;
+    margin-left: 120px;
+    align-items: center;
+}
+
+
+/* this style applies to the about me section color and size */
+
+#about {
+    border-right: 3px solid black;
+    width: 120px;
+}
+
+
+/* this style applies to the text section of the about me  */
+
+main p {
+    margin: 100px;
+    display: grid;
+    grid-template-rows: repeat;
+    gap: 20px;
+    max-width: 1000px;
+}
+
+
+/* this style applies color, width and border size to the Work text */
+
+#Work {
+    border-right: 3px solid black;
+    width: 120px;
+}
+
+
+/* this style applies to the contact me text */
+
+#Contact h2 {
+    border-right: 3px solid black;
+    width: 120px;
+}
+
+
+/* this style applies to the profile image */
+
+.me img {
+    border-radius: 50%;
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    box-shadow: 10px 2px #f8f5f6;
+    box-shadow: 10px 2px 15px;
+}
+
+
+/* this style applies to the content of the work section */
+
+.first {
+    border-right: 6px 10px solid rgb(98, 98, 100);
+    border-left: 6px 10px solid rgb(135, 135, 138);
+    margin-left: 200px;
+    width: 700px;
+    box-shadow: 100px 510px #f8f5f6;
+    box-shadow: 5px -10px 50px;
+}
+
+
+/* this style applies to the content inside the work section  */
+
+.first .second {
+    border-left: 6px solid rgb(135, 135, 138);
+    position: relative;
+    width: 30%;
+    height: 50%;
+    margin-left: 80px;
+    background: rgb(115, 166, 170);
+    transform: translate(-36%, -200%);
+    border-right: 6px solid rgb(135, 135, 138);
+}
+
+
+/* The width is 100%, when the viewport is 800px or smaller */
+
+@media screen and (max-width: 600px) {
+    a img {
+        width: 40%;
+        height: 100%;
+    }
+}
