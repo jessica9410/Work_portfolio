@@ -30,6 +30,7 @@ HTML
 CSS 
 
 ## Usage
+![Screenshot (40)](https://user-images.githubusercontent.com/87554644/138614760-8a22ae5c-8ba8-44c5-afda-0a6dda1016e3.png)
 
 <br />
 
