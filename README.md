@@ -30,10 +30,10 @@ HTML
 CSS 
 
 ## Usage
-Inquirer is easiest to use when installed with npm:  ``` npm install inquirer ```. Then you can load the module into your code with a require call: ``` const inquirer = require(‘inquirer’); ```
+
 !![Screenshot (1)](https://user-images.githubusercontent.com/87554644/137036945-86caede8-bede-479d-b992-0042be84faa0.png)<br />
 
-Direct link to site:https://jessica9410.github.io/Work_portfolio/
+Direct link to site:
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
 <br />
