@@ -31,9 +31,9 @@ CSS
 
 ## Usage
 
-!![Screenshot (1)](https://user-images.githubusercontent.com/87554644/137036945-86caede8-bede-479d-b992-0042be84faa0.png)<br />
+<br />
 
-Direct link to site:
+Direct link to site:https://jessica9410.github.io/Work_portfolio/
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
 <br />
