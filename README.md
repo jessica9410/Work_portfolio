@@ -36,7 +36,7 @@ CSS
 
 <br />
 
-Direct link to site:https://jessica9410.github.io/Work_portfolio/
+Direct link to site:https://jessicaga9410.github.io/Work_portfolio/
 ## License
 ----------
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
