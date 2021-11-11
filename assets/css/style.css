@@ -183,38 +183,53 @@ main p {
 /* Images */
 
 .take-a-hike {
-    background-image: url("../images/image32.jpeg");
+    background-image: url("../images/takeahike.png");
     background-position: top;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(115, 166, 170);
 }
 
 .workday-scheduler {
-    background-image: url("../images/image123.jpeg");
+    background-image: url("../images/scheduler.png");
     background-position: top;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(115, 166, 170);
 }
 
 .weather-dashboard {
-    background-image: url("../images/image88.jpeg");
+    background-image: url("../images/weather.png");
     background-position: top;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(115, 166, 170);
 }
 
 .code-refactor {
-    background-image: url("../images/image77.jpeg");
+    background-image: url("../images/coderefactor.png");
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(115, 166, 170);
 }
 
+.web-spinners{
+    background-image: url("../images/venues.png");
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(115, 166, 170);
+}
+
+.note-taker{
+    background-image: url("../images/notetaker.png");
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(115, 166, 170);
+}
+.readme-generator {
+    background-image: url("../images/");
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(115, 166, 170);
+}
 .generating-password {
-    background-image: url("../images/image13.jpeg");
+    background-image: url("../images/pass-generator.png");
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(115, 166, 170);
 }
-
 .page-section li {
     display: flex;
     justify-content: space-around;
