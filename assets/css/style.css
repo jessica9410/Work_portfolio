@@ -226,7 +226,7 @@ main p {
     box-shadow: 10px 5px 5px rgb(115, 166, 170);
 }
 .generating-password {
-    background-image: url("../images/pass-generator.png");
+    background-image: url("../images/password.png");
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(115, 166, 170);
 }
