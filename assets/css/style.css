@@ -283,7 +283,7 @@ a:visited {
 .skill > p {
     font-size: 18px;
     font-weight: 700;
-    color: #faf8f8;
+    color: #fcfcfc;
     margin: 0;
     
     
@@ -308,18 +308,12 @@ a:visited {
     height: 10px;
     transition: .9s;
     background-color: #149ddd;
-    
-    
-}
 
-.skill1{
-    width: 90%;
-    
         
  }
 .skill-bar span{
     position: absolute;
-    border-top: 5px solid #faf7f6; 
+    border-top: 5px solid #faf6f8; 
     top: -30px;
     padding: 0;
     font-size: 18px;
@@ -333,6 +327,9 @@ a:visited {
         
 }
 
+.skill1{
+    width: 90%;
+}
 .skill1 .skill-count1 {
     right: 0;
 }
@@ -347,7 +344,7 @@ a:visited {
     }
     /* SKILL 3 */
     .skill3{
-        width: 75%;
+        width: 70%;
     }
     .skill3 .skill-count3 {
         right: 0;
