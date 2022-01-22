@@ -29,9 +29,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ![Screenshot 2022-01-21 233216](https://user-images.githubusercontent.com/87554644/150624702-ef44efd5-04d7-4e75-a811-7a981989e035.jpg)
 
--HTML
--CSS
-
+- HTML
+- CSS
 
 ## License
 ----------
