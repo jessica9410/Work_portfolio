@@ -121,10 +121,9 @@ main p {
   text-decoration: none;
   font-size: 0.8rem;
   color: black;
-  border: 8px solid #555c61;
-  box-shadow:
-  0 0 0 10px hsl(0, 1%, 39%),
-  0 0 0 15px hsl(0, 2%, 9%);
+  border: 8px solid #4c5469;
+  box-shadow: 10px 5px 5px rgb(109, 107, 107);
+
 
 }
 
