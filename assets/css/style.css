@@ -1,7 +1,7 @@
   /* the backgound color is applied */
                                                                     
   * {
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(122, 153, 173);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -131,55 +131,7 @@ main p {
     /* color: black; */
     box-shadow: 100px;
 }
-.main-section{
-    /* border-right: 3px  solid black; */
-    /* width: 50px; */
-    color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 50px;
-    margin: 50px;
-    /* border-width: 50px; */
-}
 
-.page-section h4 {
-    border-radius: 50px;
-    block-size: 30px;
-    color: rgb(255, 254, 254);
-    /* box-shadow: 100px; */ 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
-    font-size: 25px;
-}
-
-.page-section span {
-    border-radius: 1px;
-    
-    /* box-shadow: 50px; */
-    border-right: 5px solid black;
-    width: 120px;
-    color: rgb(250, 249, 249);
-   
-}
-/* Grid Portfolio - Feature First Child */
-
-.flex-item:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
-}
-
-.flex-item:hover {
-    background-color: unset;
-}
-
-.flex-item div {
-    background-color: var(--dark-gray);
-    padding: 10px;
-    padding-right: 25px;
-    border-radius: 0px 60px 60px 0px;
-}
-
-.flex-item h4 {
-    font-size: 1.4rem;
-}
 /* Images */
 
 .take-a-hike {
@@ -230,39 +182,9 @@ main p {
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(115, 166, 170);
 }
-.page-section li {
-    display: flex;
-    justify-content: space-around;
-    border-right: 3px solid black;
-    width: 120px;
-    color: black;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-  /* this style applies to the contact information section  */
-.contactList li {
-    display: inline;
-    text-decoration: underline;
-    padding: 7px;
-    margin-left: 50px;
-    align-items: center;
-}
 
-.contactList a:hover {
-    color: rgb(7, 7, 7);
-    background-color: rgb(244, 229, 247);
-    border-radius: 5px;
-}
-
-a:link,
-a:visited {
-    color: rgb(247, 247, 248);
-    padding: 2px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.contactMe h2 {
+  
+.page-section {
     /* border-right: 3px solid black; */
    font-size: 20px;
     /* width: 120px; */
@@ -270,112 +192,6 @@ a:visited {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     /* margin: auto; */
 }
-
-
-
-.skill {
-    margin-bottom: 35px;
-    position: relative;
-        overflow-x:hidden;
-        
-        
-}
-.skill > p {
-    font-size: 18px;
-    font-weight: 700;
-    color: #fcfcfc;
-    margin: 0;
-    
-    
-}
-.skill:before{
-    width: 100%;
-    height: 5px;
-    content: "";
-    display: block;
-    position: absolute;
-    background: #959595;
-    bottom: 0;
-    
-}
-.skill-bar {
-    width: 100%;
-    height: 5px;
-    background:#5acaec;
-    display: block;
-    position: relative;
-    width: 1px;
-    height: 10px;
-    transition: .9s;
-    background-color: #149ddd;
-
-        
- }
-.skill-bar span{
-    position: absolute;
-    border-top: 5px solid #faf6f8; 
-    top: -30px;
-    padding: 0;
-    font-size: 18px;
-    padding: 3px 0;
-    font-weight: 500; 
-    
-}
-.skill-bar {
-    position: relative;
-    
-        
-}
-
-.skill1{
-    width: 90%;
-}
-.skill1 .skill-count1 {
-    right: 0;
-}
-
-.skill2{
-     width: 90%;
-       
-    }
-
-    .skill2 .skill-count2 {
-        right: 0;
-    }
-    /* SKILL 3 */
-    .skill3{
-        width: 70%;
-    }
-    .skill3 .skill-count3 {
-        right: 0;
-    }
-
-    /* SKILL 4 */
-    .skill4{
-        width: 70%
-    }
-
-    .skill4 .skill-count4 {
-        right: 0;
-    }
-
-    /* SKILL 5 */
-    .skill5{
-        width: 70%;
-    }
-
-    .skill5 .skill-count5 {
-        right: 0;
-    }
-
-    /* SKILL 6 */
-    .skill6{
-        width: 70%
-    }
-
-    .skill6 .skill-count6 {
-        right: 0;
-    } 
 
     @media (max-width: 400px ){
         .mobile-Size-Text{
@@ -386,3 +202,142 @@ a:visited {
           line-height: 35px;
         }
       }
+      .page-section {
+        margin: 25px 0;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+      }
+      
+      .page-section > h2 {
+        flex: 0 0 20%;
+        text-align: right;
+        padding-right: 15px;
+        border-right: 4px solid var(--primary);
+        font-size: 4vw;
+        line-height: 1.1;
+      }
+      
+      .page-section > div {
+        flex: 0 0 77%;
+      }
+      
+      .page-section p {
+        margin-bottom: 20px;
+      }
+      
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+       
+      
+      
+     
+        .flex-item:first-child {
+          min-height: 400px;
+          flex-basis: 100%;
+      }
+      
+      .flex-item:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      
+      .flex-item div {
+        background-color: var(--secondary);
+        padding: 8px 10px;
+      }
+      
+      .flex-item h3 {
+        font-size: 1.6rem;
+      }
+      
+      .contact address {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+      } 
+      
+      .contact address a {
+        color: var(--tertiary);
+        padding: 5px;
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-style: normal;
+        background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.2em;
+        background-position: bottom;
+        transition: all 0.25s ease-in;
+        margin: 0 0.2rem 0.1rem;
+        display: inline-block;
+      }
+      
+      .contact address a:hover {
+        background-size: 100% 88%;
+        color: var(--secondary);
+      }
+       
+      
+      /* end portfolio project images */
+      
+      @media screen and (max-width: 980px) {
+        header {
+          padding: 0 0 10px 0;
+          justify-content: center;
+          text-align: center;
+        }
+      
+        header h1 {
+          width: 100%;
+          padding: 5px;
+          margin-bottom: 10px;
+          font-size: 10vw;
+        }
+      
+        header nav {
+          justify-content: center;
+        }
+      
+        .page-section > h2,
+        .page-section > div {
+          flex: 0 0 100%;
+        }
+      
+        .page-section > h2 {
+          border-right: none;
+          border-bottom: 4px solid var(--primary);
+          margin-bottom: 20px;
+          padding-bottom: 10px;
+          text-align: left;
+          font-size: 7vw;
+        }
+      }
+      
+      @media screen and (max-width: 768px) {
+        .flex-item,
+        .flex-item:first-child {
+          flex-basis: 100%;
+        }
+      
+        .flex-item:first-child {
+          min-height: 150px;
+        }
+      
+        .hero-banner {
+          justify-content: center;
+          text-align: center;
+        }
+      
+        .contact address {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+      
