@@ -27,7 +27,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Technology used
 
-![Screenshot 2022-01-21 233216](https://user-images.githubusercontent.com/87554644/150624702-ef44efd5-04d7-4e75-a811-7a981989e035.jpg)
+![Screenshot 2022-01-22 000744](https://user-images.githubusercontent.com/87554644/150625546-27bae1e3-17c0-45b8-9fdb-985fa2d69705.jpg)
+
 
 - HTML
 - CSS
