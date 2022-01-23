@@ -30,7 +30,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![Screenshot 2022-01-22 190221](https://user-images.githubusercontent.com/87554644/150659414-063366ae-8724-4ede-babb-4484d23cc3a2.jpg)
 
 
-[Click to follow link]()
+[Click to follow link](https://jessicaga9410.github.io/Work_portfolio/)
 - HTML
 - CSS
 
