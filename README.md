@@ -27,9 +27,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Technology used
 
-![Screenshot 2022-01-22 000744](https://user-images.githubusercontent.com/87554644/150625546-27bae1e3-17c0-45b8-9fdb-985fa2d69705.jpg)
+![Screenshot 2022-01-22 190221](https://user-images.githubusercontent.com/87554644/150659414-063366ae-8724-4ede-babb-4484d23cc3a2.jpg)
 
-[Click to follow link](https://jessicaga9410.github.io/Work_portfolio/)
+
+[Click to follow link]()
 - HTML
 - CSS
 
