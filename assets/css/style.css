@@ -1,22 +1,22 @@
 /* the backgound color is applied */
 
 * {
-  background-color: rgb(194, 204, 211);
+  /* background-color: rgb(194, 204, 211); */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* this style applies to all childrens color */
 
-:root {
-  --first: rgb(63, 71, 92);
+/* :root { */
+  /* --first: rgb(63, 71, 92);
   --second: rgb(115, 166, 170);
   --third: rgb(108, 173, 233);
-  --primary: rgba(68, 88, 119, 1);
-  --tertiary: rgba(49, 52, 61, 1);
- 
+  /* --primary: rgba(68, 88, 119, 1); */
+  /* --tertiary: rgba(49, 52, 61, 1); */
 
-}
+
+/* } */
 
 header {
   text-align: center;
@@ -108,7 +108,7 @@ main p {
 .flex-item {
   flex: 1;
   /* border: 5px solid var(--dark-gray); */
-  background-color: rgb(82, 82, 82);
+  /* background-color: rgb(82, 82, 82); */
   min-height: 150px;
   min-width: 335px;
   background-blend-mode: soft-light;
@@ -122,7 +122,7 @@ main p {
   font-size: 1rem;
   color: var(--tertiary);
   border: 8px solid var(--first);
-  box-shadow: 10px 5px 5px rgb(109, 107, 107);
+  /* box-shadow: 10px 5px 5px rgb(109, 107, 107); */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 
@@ -131,17 +131,18 @@ main p {
 /* Images */
 
 .take-a-hike {
-  background-image: url("../images/takeahike.png");
-  /* background-position: top;
+  background-image: url("../images/takeahike.png"); 
+   background-position: top;
   border-radius: 10px;
-  box-shadow: 10px 5px 5px rgb(115, 166, 170); */
-}
+  box-shadow: 10px 5px 5px rgb(115, 166, 170);
+
+} 
 
 .workday-scheduler {
   background-image: url("../images/scheduler.png");
-  /* background-position: top;
+background-position: top;
   border-radius: 10px;
-  box-shadow: 10px 5px 5px rgb(115, 166, 170); */
+  box-shadow: 10px 5px 5px rgb(115, 166, 170); 
 }
 
 .weather-dashboard {
@@ -179,12 +180,12 @@ main p {
   box-shadow: 10px 5px 5px rgb(115, 166, 170); */
 }
 
-.page-section {
+/* .page-section {
  font-size: 20px;
 color: rgb(30, 39, 68);
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-}
+} */
 
 @media (max-width: 400px) {
   .mobile-Size-Text {
@@ -195,7 +196,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     line-height: 35px;
   }
 }
-.page-section {
+/* .page-section {
   margin: 25px 0;
   padding: 10px 0;
   display: flex;
@@ -212,15 +213,15 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   border-right: 4px solid var(--primary);
   font-size: 4vw;
   line-height: 1.1;
-}
+} */
 
-.page-section > div {
+/* .page-section > div {
   flex: 0 0 75%;
 }
 
 .page-section p {
   margin-bottom: 20px;
-}
+} */
 
 .flex-container {
   display: flex;
