@@ -1,24 +1,16 @@
 /* the backgound color is applied */
 
 * {
-  background-color: rgb(194, 204, 211);
+  /* background-color: rgb(194, 204, 211); */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
-/* this style applies to all childrens color */
 
-:root {
-  --first: rgb(63, 71, 92);
-  --second: rgb(115, 166, 170);
-  --third: rgb(108, 173, 233);
-  --primary: rgba(68, 88, 119, 1);
-  --tertiary: rgba(49, 52, 61, 1);
- 
 
-}
 
 header {
+
   text-align: center;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -31,6 +23,7 @@ header {
 /* this style apples to the name in h1 section  */
 
 header h1 {
+
   text-align: center;
   color: var(--first);
   background-color: var(--second);
@@ -79,13 +72,6 @@ main p {
   max-width: 1000px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* this style applies color, width and border size to the Work text */
-
-/* #Work {
-  border-right: 3px solid black;
-  width: 120px;
-  color: rgb(12, 12, 12);
-} */
 
 
 .me img {
@@ -99,160 +85,19 @@ main p {
   box-shadow: 10px 2px 15px;
 }
 
-/* .flex-container {
-  display: flex;
-
-  flex-wrap: wrap;
-} */
-
-.flex-item {
-  flex: 1;
-  /* border: 5px solid var(--dark-gray); */
-  background-color: rgb(82, 82, 82);
-  min-height: 150px;
-  min-width: 335px;
-  background-blend-mode: soft-light;
-  margin: 40px;
-  background-size: 150%;
-  transition: all 0.5s;
-  display: flex;
-  align-items: flex-end;
-  padding: 0 0 20px 0;
-  text-decoration: none;
-  font-size: 1rem;
-  color: var(--tertiary);
-  border: 8px solid var(--first);
-  box-shadow: 10px 5px 5px rgb(109, 107, 107);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 
-}
 
-/* Images */
 
-.take-a-hike {
-  background-image: url("../images/takeahike.png");
-  /* background-position: top;
-  border-radius: 10px;
-  box-shadow: 10px 5px 5px rgb(115, 166, 170); */
-}
 
-.workday-scheduler {
-  background-image: url("../images/scheduler.png");
-  /* background-position: top;
-  border-radius: 10px;
-  box-shadow: 10px 5px 5px rgb(115, 166, 170); */
-}
 
-.weather-dashboard {
-  background-image: url("../images/weather.png");
-  /* background-position: top;
-  border-radius: 10px;
-  box-shadow: 10px 5px 5px rgb(115, 166, 170); */
-}
 
-.code-refactor {
-  background-image: url("../images/coderefactor.png");
-  /* border-radius: 10px;
-  box-shadow: 10px 5px 5px rgb(115, 166, 170); */
-}
 
-.web-spinners {
-  background-image: url("../images/venues.png");
-  /* border-radius: 10px;
-  box-shadow: 10px 5px 5px rgb(115, 166, 170); */
-}
 
-.note-taker {
-  background-image: url("../images/notetaker.png");
-  /* border-radius: 10px;
-  box-shadow: 10px 5px 5px rgb(115, 166, 170); */
-}
-.readme-generator {
-  background-image: url("../images/");
-  /* border-radius: 10px;
-  box-shadow: 10px 5px 5px rgb(115, 166, 170); */
-}
-.generating-password {
-  background-image: url("../images/password.png");
-  /* border-radius: 10px;
-  box-shadow: 10px 5px 5px rgb(115, 166, 170); */
-}
 
-.page-section {
- font-size: 20px;
-color: rgb(30, 39, 68);
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-}
 
-@media (max-width: 400px) {
-  .mobile-Size-Text {
-    font-size: 24px;
-    font-weight: bolder;
-  }
-  .mobile-Size-Text-top {
-    line-height: 35px;
-  }
-}
-.page-section {
-  margin: 25px 0;
-  padding: 10px 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-between;
-}
 
-.page-section > h2 {
-  flex: 0 0 20%;
-  text-align: right;
-  padding-right: 15px;
-  border-right: 4px solid var(--primary);
-  font-size: 4vw;
-  line-height: 1.1;
-}
-
-.page-section > div {
-  flex: 0 0 75%;
-}
-
-.page-section p {
-  margin-bottom: 20px;
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.flex-item:first-child {
-  min-height: 400px;
-  flex-basis: 100%;
-}
-
-.flex-item:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
- .flex-item div {
-  background-color:var;
-  padding: 8px 10px;
-} 
-
-.flex-item h3 {
-  font-size: 1.6rem;
-}
-
- .contact address {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-} 
 
  .contact address a {
   color: var(--tertiary);
@@ -286,38 +131,16 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   }
 
 
-/* 
- .page-section > h2,
-  .page-section > div {
-    flex: 0 0 100%;
-  }  */
-
-  .page-section > h2 {
-    border-right: none;
-    border-bottom: 4px solid var(--primary);
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    text-align: left;
-    font-size: 7vw;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .flex-item,
   .flex-item:first-child {
     flex-basis: 100%;
   }
+}
 
-  /* .flex-item:first-child {
-    min-height: 150px;
-  } */
-
-  /* .hero-banner {
-    justify-content: center;
-    text-align: center;
-  } */
  .contact address {
     flex-direction: column;
     text-align: center;
   }
-} 
+}
