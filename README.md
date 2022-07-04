@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-- [Description](#description) -[Link](#Link)
+- [Description](#description)
 - [Technology used](#technology-used)
 - [License](#license)
 - [Questions](#questions)
@@ -27,7 +27,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-## Link
+## Technology used
 
 ![jess12](https://user-images.githubusercontent.com/87554644/177085184-b575beba-cf82-490b-b367-15755705eb78.png)
 
