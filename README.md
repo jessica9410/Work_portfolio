@@ -1,10 +1,12 @@
 # Work_portfolio
-----------
+
+---
+
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
 
 ## Table of Contents
 
-- [Description](#description)
+- [Description](#description) -[Link](#Link)
 - [Technology used](#technology-used)
 - [License](#license)
 - [Questions](#questions)
@@ -25,23 +27,29 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-## Technology used
+## Link
 
 ![jess12](https://user-images.githubusercontent.com/87554644/177085184-b575beba-cf82-490b-b367-15755705eb78.png)
 
-
 [Click to follow link](https://jessicaga9410.github.io/Work_portfolio/)
+
+## Technology used
+
 - HTML
 - CSS
 
 ## License
-----------
+
+---
+
 ![badge](https://img.shields.io/badge/license-MIT-ff69b4)
 <br />
-This application is covered by the MIT license. 
+This application is covered by the MIT license.
 
 ## Questions
-----------
+
+---
+
 Find me on GitHub: [Jessicaga9410](https://github.com/Jessicaga9410)
 
 Email me with any questions: Jessicaga941@gmail.com
