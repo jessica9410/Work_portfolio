@@ -5,12 +5,31 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-family: Arial, sans-serif;
+  background-color: rgb(201, 188, 211);
+  background-color: rgb(6, 10, 53);
+  font-family: "Playfair Display", serif;
 }
 
+.me img {
+  border-radius: 50%;
+  max-height: 150px;
+  max-width: 200px;
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+  padding: auto;
+  box-shadow: 10px 2px 15px;
+}
 
+.me img:hover {
+  -ms-transform: scale(1.3);
+  /* IE 9 */
+  -webkit-transform: scale(1.3);
+  /* Safari 3-8 */
+  transform: scale(1.3);
+}
 
 header {
-
   text-align: center;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -19,30 +38,34 @@ header {
   align-items: center;
   padding: 10px;
   flex-direction: row;
+  background-color: rgb(201, 188, 211);
 }
+
 /* this style apples to the name in h1 section  */
 
 header h1 {
-
   text-align: center;
   color: var(--first);
   background-color: var(--second);
   padding: 15px;
   font-size: 4vm;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Playfair Display SC", serif;
+  color: rgb(248, 250, 251);
 }
-
 
 nav {
-  text-align: center; 
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: rgb(137, 137, 160);
 }
+
 /* this style applies to the nav a -- by using transition and root colors  */
 
 nav a {
- 
+  font-family: "Playfair Display", serif;
   padding: 10px;
   margin-right: 10px;
-  color: var(--first);
+  color: rgb(216, 125, 125);
   font-size: 1.4rem;
   text-align: center;
   background-repeat: no-repeat;
@@ -58,70 +81,84 @@ nav a {
   );
 }
 
-
 nav a:hover {
-    background-size: 100% 88%;
-    color: var(--second);
-  } 
+  background-size: 100% 88%;
+  color: white;
+}
 
-main p {
-  margin: 100px;
-  display: grid;
+.contact h2 {
+  font-family: "Playfair Display SC", serif;
+  margin-right: 100px;
+  color: white;
+}
+
+.section p {
+  color: rgb(137, 137, 160);
+  padding-left: 100px;
+  margin-left: 100px;
   grid-template-rows: repeat;
   gap: 20px;
   max-width: 1000px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+p {
+  color: rgb(137, 137, 160);
+  font-family: "Playfair Display", serif;
+}
+#about {
+  padding: 100px;
+  text-align: center;
+  color: white;
+}
 
-.me img {
-  border-radius: 50%;
-  max-height: 150px;
-  max-width: 200px;
-  width: 120px;
-  height: 120px;
+#projects h2 {
+  font-family: "Playfair Display", serif;
+  color: rgb(251, 245, 245);
+  text-align: center;
+  height: 60px;
+  margin: auto;
+}
+
+ 
+
+.page-section {
+  color: rgb(250, 247, 247);
+  padding: 0 auto;
   margin: 20px;
-  box-shadow: 10px 2px #f8f5f6;
-  box-shadow: 10px 2px 15px;
+  padding: 40px;
+  margin: 0 auto;
+  font-family: "Playfair Display", serif;
 }
 
+.card {
+  color: rgb(233, 147, 226);
+  transition: 0.2s;
+  margin: 0 auto;
+  padding: 2px;
+  width: 350px;
+  margin-bottom: 25px;
+}
 
+.card:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
- .contact address a {
-  color: var(--tertiary);
-  padding: 5px;
-  text-decoration: none;
-  font-size: 1.3rem;
-  font-style: normal;
-  background-image: linear-gradient(
-    270deg,
-    var(--primary) 0%,
-    var(--primary) 100%
-  );
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: bottom;
-  transition: all 0.25s ease-in;
-  margin: 0 0.2rem 0.1rem;
-  display: inline-block;
-} 
- .contact address a:hover {
+.contact:hover {
   background-size: 100% 88%;
-  color: var(--second);
-} 
+  color: pink;
+}
 
+.footer {
+  color: rgb(227, 138, 213);
+  text-align: center;
+  padding: 80px 0;
+  margin: 0 auto;
+  align-items: center;
+}
 
 @media screen and (max-width: 980px) {
   header {
@@ -129,18 +166,22 @@ main p {
     justify-content: center;
     text-align: center;
   }
-
-
-
-@media screen and (max-width: 768px) {
-  .flex-item,
-  .flex-item:first-child {
-    flex-basis: 100%;
-  }
 }
 
- .contact address {
-    flex-direction: column;
-    text-align: center;
-  }
+#contact {
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  display: block;
+  font-family: "Playfair Display", serif;
+}
+.page-section-contact h2 {
+  color: rgb(11, 9, 9);
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  display: block;
+  margin-right: 50px;
+  font-family: "Playfair Display", serif;
 }
