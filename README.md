@@ -31,7 +31,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ![jess12](https://user-images.githubusercontent.com/87554644/177085184-b575beba-cf82-490b-b367-15755705eb78.png)
 
-[Click to follow link](https://jessicaga9410.github.io/Work_portfolio/)
+
 
 ## Technology used
 
